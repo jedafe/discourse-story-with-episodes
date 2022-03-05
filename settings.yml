@@ -1,0 +1,42 @@
+story_category:
+  type: string
+  default: ""
+  description: 
+    en: 'Enter the category slug of your story category as it appears in the url. 
+         The slug is bold in the following example url: 
+         https://community.example.org/c/<b>story-posts</b>/3
+         <br><br>
+         Note: you may use more than one category slug by comma separating the
+         slug values like: <b>story-one,story-two</b> <br>
+         Be sure there are no spaces after the commas.'
+story_tag:
+  type: list
+  list_type: tag
+  default: ""
+  description:
+    en: 'Topics will have story styling applied when they have any of the tags included in this setting.'
+image_display_style:
+  type: enum
+  default: "responsive crop"
+  choices:
+    - responsive crop
+    - center fit
+  description:
+    en: 'Responsive Crop - always display at 100% width, evenly cropping the image as needed.
+         <br>
+         Center Fit - display the full image, maintaining the aspect ratio and centering it within the page.'
+mobile_enabled:
+  type: bool
+  default: false
+  description:
+    en: 'BETA VERSION - please provide feedback in the theme component topic.'
+no_images:
+  type: bool
+  default: false
+  description:
+      en: 'Enable if you want to include the styling without images at the top.'
+full_width:
+  type: bool
+  default: false
+  description:
+    en: (EXPERIMENTAL) Display the story post in a full-width format on desktop.

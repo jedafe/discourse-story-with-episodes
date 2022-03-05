@@ -1,0 +1,17 @@
+{
+  "name": "Story With Episodes",
+  "component": true,
+  "license_url": "https://github.com/jedafe/discourse-story-with-episodes/blob/main/LICENSE",
+  "about_url": "https://braghq.com/",
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": "2.5.0.beta4",
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  "color_schemes": {
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://braghq.com/"
+}
